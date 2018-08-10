@@ -1,7 +1,4 @@
-// respond
-
-
-let response;
+const callSendAPI = require('./call_send_api');
 
 function handleMessage(sender_psid, received_message) {
 
